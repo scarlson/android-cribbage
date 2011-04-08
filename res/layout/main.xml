@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#333">
+
+<TextView
+  android:id="@+id/leftview"
+  android:layout_weight="1"
+  android:layout_width="250px"
+  android:layout_height="match_parent"
+  android:layout_alignParentLeft="true"
+  android:text="@string/hello"/>  
+<TextView
+  android:id="@+id/rightview"
+  android:layout_weight="1"
+  android:layout_width="250px"
+  android:layout_height="match_parent"
+  android:layout_alignParentRight="true"
+  android:text="@string/hello"/>
+<Button 
+  android:id="@+id/New"
+  android:layout_width="100px"
+  android:layout_height="wrap_content"
+  android:layout_centerHorizontal="true"
+  android:layout_alignParentTop="true"
+  android:text="New Game"/>
+<Button 
+  android:id="@+id/Exit"
+  android:layout_width="100px"
+  android:layout_height="wrap_content"
+  android:layout_centerHorizontal="true"
+  android:layout_alignParentBottom="true"
+  android:text="Quit"/>  
+<Button 
+  android:id="@+id/Card1"
+  android:layout_width="75px"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  android:text="Card1"/>
+<Button
+  android:id="@+id/Card2"
+  android:layout_width="75px"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  android:layout_toRightOf="@+id/Card1"
+  android:text="Card2" />
+<Button
+  android:id="@+id/Card3"
+  android:layout_width="75px"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  android:layout_toRightOf="@+id/Card2"
+  android:text="Card3" />
+<Button
+  android:id="@+id/Card4"
+  android:layout_width="75px"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  android:layout_toRightOf="@+id/Card3"
+  android:text="Card4" />
+<Button
+  android:id="@+id/Card5"
+  android:layout_width="75px"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  android:layout_toRightOf="@+id/Card4"
+  android:text="Card5" />
+<Button
+  android:id="@+id/Card6"
+  android:layout_width="75px"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  android:layout_toRightOf="@+id/Card5"
+  android:text="Card6" />
+</RelativeLayout>
